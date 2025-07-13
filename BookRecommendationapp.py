@@ -3,20 +3,6 @@ import pandas as pd
 import numpy as np
 import joblib
 
-pg_bg_img="""
-<style>
-[data-testid="stAppViewContainer"] {
-  background-image: url(https://png.pngtree.com/background/20250212/original/pngtree-stack-of-different-books-on-dark-background-knowledge-concept-picture-image_15568922.jpg);
-  background-size: cover;   
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  background-position: center;
-  padding: 20px;               
-  margin: 0;                    
-}
-</style>
-
-"""
 
 st.title("Book Recommendation App")
 st.markdown("-----")
